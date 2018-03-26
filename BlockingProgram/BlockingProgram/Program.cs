@@ -53,6 +53,7 @@ namespace BlockingProgram
             //p = n;
             objProgram.add3(out n);
             Console.WriteLine("After Add3 : " + n);
+            Console.WriteLine("Hello");
             objProgram.add4(n);
             iAbstClass2 obj = objProgram;
             obj.add4(n);
